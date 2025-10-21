@@ -1,0 +1,11 @@
+.DS_Store
+logs
+__pycache__
+*.log
+*.pem
+.idea
+.claude
+documentation
+catboost_info/
+WARP.md
+
