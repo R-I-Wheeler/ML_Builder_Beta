@@ -16,10 +16,10 @@ RUN pip install --upgrade pip
 
 RUN pip install --prefer-binary osqp
 
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r ml_builder/requirements.txt
 
 EXPOSE 8501
 
 HEALTHCHECK CMD curl --fail http://localhost:8501/_stcore/health
 
-ENTRYPOINT ["streamlit", "run", "app.py", "--server.port=8501"]
+ENTRYPOINT ["streamlit", "run", "ml_builder/app.py", "--server.port=8501"]
