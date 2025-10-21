@@ -16,7 +16,7 @@ ml-builder
 
 ### Method 2: From GitHub Repository
 ```bash
-pip install git+https://github.com/richardwheeler/ML_Builder_Beta.git
+pip install git+https://github.com/R-I-Wheeler/ML_Builder_Beta.git
 ml-builder
 ```
 

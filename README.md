@@ -16,35 +16,7 @@ ML Builder is an educational and professional tool designed to guide users throu
 - **Educational Content**: Comprehensive explanations and guidance at each stage
 - **Export Capabilities**: Download models, datasets, and complete reproduction scripts
 
-## Installation
-
-1. **Clone the repository**:
-```bash
-git clone <repository-url>
-cd ML_Builder_New
-```
-
-2. **Create a virtual environment** (recommended):
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-3. **Install dependencies**:
-```bash
-pip install -r requirements.txt
-```
-
-## Quick Start
-
-1. **Start the application**:
-```bash
-streamlit run app.py
-```
-
-2. **Access the application** at `http://localhost:8501`
-
-3. **Begin development** by clicking "Start ML Development" and either:
+2. **Begin development** by clicking "Start ML Development" and either:
    - Upload your own CSV dataset
    - Use one of the provided sample datasets (Titanic or Miami Housing)
 
