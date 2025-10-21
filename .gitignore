@@ -9,3 +9,15 @@ documentation
 catboost_info/
 WARP.md
 
+# Package build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+env/
+*_env/
+test_env/
+
