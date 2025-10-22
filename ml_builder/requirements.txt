@@ -18,8 +18,8 @@ fairlearn>=0.7.0
 Boruta>=0.3
 xgboost>=2.1.4
 lightgbm>=4.6.0
-python-magic-bin>=0.4.27; platform_system == 'Windows'
-python-magic>=0.4.27; platform_system != 'Windows'
+python-magic-bin>=0.4.27; platform_machine == 'x86_64'
+python-magic>=0.4.27; platform_machine != x86_64'
 optuna>=3.5.0
 cmaes>=0.11.0
 lime>=0.2.0
