@@ -24,7 +24,7 @@ Usage:
 
 __version__ = "1.0.0"
 __author__ = "Richard Wheeler"
-__email__ = "your.email@example.com"
+__email__ = "richard.wheeler@priosym.com"
 
 # Import main classes for programmatic use
 try:
